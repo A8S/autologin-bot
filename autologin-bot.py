@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as expected_conditions
 #network auto-login bot
-login_id ='17uec010'#enter you login id here
-login_pass ='DxpU3382*'#enter your password
+login_id ='user login id'#enter you login id here
+login_pass ='password'#enter your password
 browser = webdriver.Chrome()#choose any other webdriver depending on which  browser you have, here chrome is used.
 browser.get(('https://xxx.xxx.xxx.xxx/connect-to-internet-network-access-gain/PortalMain'))#link of the site
 
